@@ -34,7 +34,7 @@ public class BookService {
         return bookRepository.findAll();
     }
 
-
+    //update a book
     public Book updateBook(Book book){
         return bookRepository.save(book);
     }
